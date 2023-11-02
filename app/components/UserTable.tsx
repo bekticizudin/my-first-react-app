@@ -24,6 +24,7 @@ const UserTable: React.FC = () => {
       user.address.city.toLowerCase().includes(city.toLowerCase())
     );
     setFilteredUsers(filtered);
+    setPage(0);
   };
 
   const handleSort = (type: 'asc' | 'desc') => {
