@@ -26,7 +26,7 @@ body {
   border-collapse: collapse;
   border-radius: 8px; 
   overflow: hidden; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a lifted effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .styled-table th, .styled-table td {
@@ -38,7 +38,7 @@ body {
   background-color: #f4f4f4;
   font-weight: bold;
   color: #333;
-  text-transform: uppercase; /* Uppercase text */
+  text-transform: uppercase;
 }
 
 .styled-table tbody tr:nth-child(even) {
